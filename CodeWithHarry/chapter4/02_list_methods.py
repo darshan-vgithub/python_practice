@@ -12,3 +12,16 @@ print(l1)
 
 l1.reverse()
 print(l1)
+
+l1.insert(3,3333)
+print(l1)
+
+
+poppedElement=l1.pop()  
+print(poppedElement)
+print(l1)
+
+
+removedElement=l1.remove(3333)
+print(removedElement)
+print(l1)
