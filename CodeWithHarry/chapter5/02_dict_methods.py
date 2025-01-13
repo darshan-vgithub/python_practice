@@ -31,3 +31,6 @@ marks.get("shivika")
 # values()
 
 # some of the other methods which i want to try it out
+
+
+d={} # if you want to crate an empty dictionary
