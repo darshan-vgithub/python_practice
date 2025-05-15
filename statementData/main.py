@@ -15,7 +15,7 @@ os.makedirs(financials_path, exist_ok=True)
 equity_details = pd.read_csv(os.path.join(base_path, "EQUITY_L.csv"))
 print(equity_details.SYMBOL)
 
-for name in equity_details.SYMBOL[:5]:
+for name in equity_details.SYMBOL[:1]:
     try:
         ticker = yf.Ticker(f"{name}.NS")
 
