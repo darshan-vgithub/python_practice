@@ -1,9 +1,22 @@
 class Employee:
     def __init__(self):
-        print("this is a constructor of Employee")
+        print("constructor of employee")
+    a=1
+
 class Programmer(Employee):
     def __init__(self):
-        super().__init__()
-        print("this is a constructor of Programmer")
+         print("constructor of programmer")
+    b=2
+class Manager(Programmer):
+    def __init__(self):
+        print("constructor of manager")
+    c=3
 
-p=Programmer()
+a=Employee()
+print(a.a)
+
+b=Programmer()
+print(b.a,b.b)
+
+c=Manager()
+print(c.a,c.b,c.c)
