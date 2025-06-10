@@ -5,18 +5,21 @@ class Employee:
 
 class Programmer(Employee):
     def __init__(self):
+         super().__init__()
+         
          print("constructor of programmer")
     b=2
 class Manager(Programmer):
     def __init__(self):
+        super().__init__()
         print("constructor of manager")
     c=3
 
-a=Employee()
-print(a.a)
+# a=Employee()
+# print(a.a)
 
-b=Programmer()
-print(b.a,b.b)
+# b=Programmer()
+# print(b.a,b.b)
 
 c=Manager()
 print(c.a,c.b,c.c)
